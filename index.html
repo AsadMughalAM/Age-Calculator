@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Age Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<section class="main-section">
+
+   
+    <div class="content-section" id="content_div">
+        <p class="txt-date" id="current_date"></p>
+        <p class="txt">
+            Enter your birthday in format - <span>MM/DD/YYYY</span>
+        </p>
+        <input
+                class="input-field"
+                type="text"
+                placeholder="MM/DD/YYYY"
+                id="birthday"
+        >
+        <button class="btn" id="calculate_age">Confirm</button>
+    </div>
+
+  
+    <div class="count-age" id="calculate_age_div" style="display: none">
+        <div class="content-age-view">
+            <p class="txt-birthday" id="cal_age"></p>
+            <img src="age.gif" class="img">
+        </div>
+
+    </div>
+
+ 
+    <div class="footer-section">
+        <p class="footer-text">Asad Mughal</p>
+    </div>
+
+</section>
+
+
+<script src="mainFunctions.js"></script>
+</body>
+</html>
